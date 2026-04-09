@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>منصة الشمس | نظرية الخلية</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>منصة الشمس التعليمية</h1>
+      <p class="dr-name">إعداد الدكتور صهيب موفق عزيز</p>
+      <p class="lesson-tag">مادة الأحياء للسادس الإعدادي</p>
+      <p class="chapter-title">الفصل الأول | الدرس الثاني: نظرية الخلية</p>
+    </header>
+
+    <nav class="nav">
+      <button onclick="scrollToSection('theory')">نظرية الخلية</button>
+      <button onclick="scrollToSection('principles')">أسس النظرية</button>
+      <button onclick="scrollToSection('ministerial')">الأسئلة الوزارية</button>
+    </nav>
+
+    <section id="theory" class="card">
+      <h2>1-2 نظرية الخلية Cell Theory</h2>
+      <p>تستند نظرية الخلية إلى العمل الذي قدمه كل من العالم الألماني <strong>ماتياس شلايدن M. Schleiden</strong> وعالم الحيوان الألماني <strong>ثيودور شوان T. Schwann</strong>.</p>
+      <div class="highlight-box">
+        تعد هذه النظرية من أهم الركائز في علم الأحياء الحديث، حيث حددت مفهوم الخلية كمصدر وحيد وأساسي لكل أشكال الحياة.
+      </div>
+    </section>
+
+    <section id="principles" class="card">
+      <h2>أسس نظرية الخلية</h2>
+      <p>يمكن إيجاز أسس نظرية الخلية بالنقاط الثلاث الآتية:</p>
+      <div class="info-box">
+        <ul class="q-list">
+          <li><strong>أ.</strong> جميع الكائنات الحية تتكون من خلايا.</li>
+          <li><strong>ب.</strong> الخلايا هي الوحدات الأساسية التركيبية والوظيفية للكائنات الحية.</li>
+          <li><strong>ج.</strong> الخلايا تنتج من خلايا أخرى من خلال انقسامها.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="ministerial" class="card">
+      <h2 style="color: #2980b9;">(أنماط الأسئلة الوزارية)</h2>
+      
+      <h3>عرف ما يأتي:</h3>
+      <div class="step">
+        <strong>نظرية الخلية:</strong> هي نظرية علمية تستند إلى عمل العالمين ماتياس شلايدن وثيودور شوان، وتتلخص في أن جميع الكائنات الحية تتكون من خلايا، وأن الخلايا هي الوحدات الأساسية التركيبية والوظيفية للكائنات الحية، وأن الخلايا تنتج من خلايا أخرى من خلال انقسامها.
+      </div>
+
+      <h3>أجب عن الأسئلة الآتية:</h3>
+      <div class="location-box">
+        <strong>س: عدد أسس نظرية الخلية؟</strong>
+        <ul>
+          <li>جميع الكائنات الحية تتكون من خلايا.</li>
+          <li>الخلايا هي الوحدات الأساسية التركيبية والوظيفية للكائنات الحية.</li>
+          <li>الخلايا تنتج من خلايا أخرى من خلال انقسامها.</li>
+        </ul>
+      </div>
+
+      <div class="location-box">
+        <strong>س: ما دور كل من ماتياس شلايدن وثيودور شوان في نظرية الخلية؟</strong>
+        <p>لقد قدما العمل الأساسي الذي تستند إليه نظرية الخلية والتي تنص على أن (جميع الكائنات الحية تتكون من خلايا، وأن الخلايا هي الوحدات الأساسية التركيبية والوظيفية للكائنات الحية، والخلايا تنتج من خلايا أخرى من خلال انقسامها).</p>
+      </div>
+
+      <h3>املأ الفراغات الوزارية:</h3>
+      <ul class="q-list">
+        <li>تستند نظرية الخلية إلى العمل الذي قدمه كل من <strong>ماتياس شلايدن</strong> و <strong>ثيودور شوان</strong>.</li>
+        <li>تنتج الخلايا من خلايا أخرى من خلال <strong>انقسامها</strong>.</li>
+      </ul>
+
+      <h3>اختبر نفسك (اختر الإجابة الصحيحة):</h3>
+      <div class="quiz">
+        <p>تستند نظرية الخلية إلى عمل العالمين:</p>
+        <button onclick="checkAnswer(this,false)">روبرت هوك وفان ليفنهوك</button>
+        <button onclick="checkAnswer(this,true)">ماتياس شلايدن وثيودور شوان</button>
+        <button onclick="checkAnswer(this,false)">روبرت براون</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>منصة الشمس التعليمية © 2026</p>
+      <p>الدكتور صهيب موفق عزيز</p>
+      <a href="https://wa.me/9647700425408" class="whatsapp">للتواصل عبر واتساب: 07700425408</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
